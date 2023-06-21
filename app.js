@@ -8,6 +8,7 @@ const morgan = require("morgan");
 const connectDb = require("./database");
 const notFoundMiddleware = require("./middlewares/notFoundHandler");
 const errorHandeler = require("./middlewares/errorHandeler");
+
 const dotenv = require("dotenv");
 dotenv.config();
 
